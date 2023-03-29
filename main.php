@@ -1,8 +1,7 @@
 <?php
-require_once 'autoload.php';
+include 'Math/Addition.php';
+include 'Math/Subtraction.php';
 
-use Math\Addition;
-use Math\Subtraction;
 
 $sum = Addition::sum(5, 3);
 $difference = Subtraction::difference(7, 2);
